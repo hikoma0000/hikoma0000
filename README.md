@@ -1,6 +1,6 @@
 I'm hikoma0000🐤
 
-**Play Minecraft play, play, play,play,play,playplayplayplayplay** &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;*~~and little bit of other games~~*
+**Play Minecraft play, play, play,play,play,playplayplayplayplay**
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hikoma0000&layout=compact)
 
