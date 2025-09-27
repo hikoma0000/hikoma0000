@@ -1,4 +1,4 @@
-I'm hikoma0000🐤
+I'm hikoma🐤
 
 **Play Minecraft play, play, play,play,play,playplayplayplayplay**
 
