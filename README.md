@@ -4,7 +4,7 @@
 - abbreviation  : `hikoma`, `ヒコマ`
 
 ## Links
-- MySite : https://hikoma0000.github.io/
+- My site : https://hikoma0000.github.io/
 
 ## Likes
 - Minecraft
