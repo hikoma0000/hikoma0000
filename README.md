@@ -1,6 +1,6 @@
 ## I'm hikoma0000 🐤
 
-- Official name : `hikoma0000`
+- Official name : `hikoma0000` /çikoma ziːroʊfɔːr/
 - abbreviation  : `hikoma`, `ヒコマ`
 
 ## Links
