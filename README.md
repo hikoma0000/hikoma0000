@@ -1,7 +1,10 @@
 ## I'm hikoma0000 🐤
 
-- Official name : `hikoma0000` /çikoma ziːroʊfɔːr/
-- abbreviation  : `hikoma`, `ヒコマ`
+- Official name : `hikoma0000`
+- abbreviation  : `hikoma`, `ヒコマ`, `ひコマ`
+
+<!--- /çikoma ziːroʊfɔːr/ --->
+
 
 ## Links
 - My site : https://hikoma0000.github.io/
