@@ -22,7 +22,7 @@ jobs:
           card: top-langs
           options: username=${{ github.repository_owner }}&layout=compact&langs_count=20&theme=vue-dark&locale=en
           path: profile/top-langs.svg
-          token: ${{ secrets.GRS_TOKEN }}
+          token: ${{ vars.SHOW_PRIVATE == 'true' && secrets.GRS_TOKEN || github.token }}
           fail_on_error: true
 
       - name: Commit cards
