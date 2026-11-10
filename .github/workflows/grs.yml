@@ -3,6 +3,7 @@ name: Update README cards
 on:
   schedule:
     - cron: "0 0 * * *"
+    - cron: "0 12 1 * *"
   workflow_dispatch:
 
 jobs:
@@ -30,4 +31,10 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile/*.svg
           git commit -m "Update README cards" || exit 0
+          git push
+
+      - name: Keep schedule alive
+        if: github.event.schedule == '0 12 1 * *'
+        run: |
+          git commit --allow-empty -m "Keep workflow alive"
           git push
