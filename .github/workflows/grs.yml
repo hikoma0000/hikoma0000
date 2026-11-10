@@ -11,6 +11,7 @@ jobs:
 
     permissions:
       contents: write
+      actions: write
 
     steps:
       - uses: actions/checkout@v6
@@ -31,3 +32,10 @@ jobs:
           git add profile/*.svg
           git commit -m "Update README cards" || exit 0
           git push
+
+      # Scheduled workflows are disabled after 60 days without repository activity
+      - name: Keep schedule alive
+        if: always()
+        run: gh api -X PUT repos/${{ github.repository }}/actions/workflows/grs.yml/enable
+        env:
+          GH_TOKEN: ${{ github.token }}
